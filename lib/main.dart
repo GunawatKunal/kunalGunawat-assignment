@@ -1,6 +1,7 @@
 import 'package:flutter/material.dart';
 
 import 'core/route_generator.dart';
+import 'core/theme.dart';
 
 void main() {
   runApp(const MainApp());
@@ -11,11 +12,12 @@ class MainApp extends StatelessWidget {
 
   @override
   Widget build(BuildContext context) {
-    return const MaterialApp(
+    return MaterialApp(
       debugShowCheckedModeBanner: false,
       title: 'reg-login',
       initialRoute: '/',
       onGenerateRoute: RouteGenerator.generateRoute,
+      theme: buildThemeData(),
     );
   }
 }

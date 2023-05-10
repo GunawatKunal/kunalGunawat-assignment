@@ -5,6 +5,10 @@ class SplashPage extends StatelessWidget {
 
   @override
   Widget build(BuildContext context) {
+    Future.delayed(
+      const Duration(seconds: 2),
+      () => Navigator.pushNamedAndRemoveUntil(context, '/login', (route) => false),
+    );
     return const Scaffold(
       body: Center(
         child: Text(
