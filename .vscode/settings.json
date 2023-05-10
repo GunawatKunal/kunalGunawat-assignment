@@ -1,0 +1,23 @@
+{
+    "dart.flutterSdkPath": "E:\\office\\flutter\\flutter",
+    "files.exclude": {
+        ".dart_tool": true,
+        "android": true,
+        "ios": true,
+        "linux": true,
+        "macos": true,
+        "windows": true,
+        "test": true,
+        "web": true,
+        ".flutter-plugins*": true,
+        ".gitignore": true,
+        ".metadata": true,
+        "pubspec.lock": true,
+        ".packages": true,
+        "build": true,
+        "README.md": true,
+        "analysis_options.yaml": true,
+        ".idea": true,
+    },
+    "dart.lineLength": 120,
+}
