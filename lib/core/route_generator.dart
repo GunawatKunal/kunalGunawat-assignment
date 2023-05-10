@@ -1,5 +1,6 @@
 import 'package:flutter/material.dart';
 import 'package:login_reg_demo/pages/login/login.dart';
+import 'package:login_reg_demo/pages/register/register.dart';
 
 import '../pages/splash/splash.dart';
 
@@ -10,6 +11,8 @@ class RouteGenerator {
         return MaterialPageRoute(builder: (_) => const SplashPage());
       case '/login':
         return MaterialPageRoute(builder: (_) => const LoginPage());
+      case '/register':
+        return MaterialPageRoute(builder: (_) => const RegisterPage());
 
       default:
         return _errorRoute();

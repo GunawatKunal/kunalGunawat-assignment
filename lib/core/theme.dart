@@ -17,7 +17,10 @@ ThemeData buildThemeData() {
         padding: MaterialStateProperty.all(const EdgeInsets.symmetric(vertical: 15)),
       ),
     ),
-    colorScheme: ColorScheme.fromSwatch(accentColor: AppColor.secondaryColor),
+    colorScheme: const ColorScheme.light(
+      primary: AppColor.primaryColor,
+      secondary: AppColor.secondaryColor,
+    ),
   );
 }
 
