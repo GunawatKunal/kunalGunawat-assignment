@@ -2,7 +2,7 @@
     "dart.flutterSdkPath": "E:\\office\\flutter\\flutter",
     "files.exclude": {
         ".dart_tool": true,
-        "android": true,
+        "android": false,
         "ios": true,
         "linux": true,
         "macos": true,

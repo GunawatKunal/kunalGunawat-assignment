@@ -1,5 +1,6 @@
 import 'package:flutter/material.dart';
 import 'package:login_reg_demo/core/theme.dart';
+import 'package:login_reg_demo/service/fcm_services.dart';
 import 'package:login_reg_demo/shared/exit_check.dart';
 
 import '../../service/snackbar_service.dart';
@@ -42,6 +43,13 @@ class _LoginFormState extends State<LoginForm> {
   final _passwordController = TextEditingController();
 
   bool obscureText = true;
+
+  @override
+  void initState() {
+    fcmPermissionForIosWeb();
+    fcmMessaging(context);
+    super.initState();
+  }
 
   @override
   void dispose() {

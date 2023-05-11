@@ -1,4 +1,4 @@
-package com.example.login_reg_demo
+package com.kunal.firebasepush
 
 import io.flutter.embedding.android.FlutterActivity
 
